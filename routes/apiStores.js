@@ -110,7 +110,7 @@ router.get("/stores/", async (req, res) => {
     console.error("Error inserting documents:", error);
     res.status(500).send(error);
   } finally {
-    // await mongoclient.close();
+    await mongoclient.close();
   }
 });
 
