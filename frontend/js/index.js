@@ -19,7 +19,7 @@ const getStores = () => {
   //   InvalidZipCode();
   //   return;
   // }
-  const API_URL = "http://127.0.0.1:3000/api/stores?";
+  const API_URL = "https://coffeelocator.onrender.com/api/stores?";
   fetch(
     API_URL +
       new URLSearchParams({
