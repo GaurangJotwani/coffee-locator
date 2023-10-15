@@ -25,12 +25,6 @@ app.use(express.static("frontend"));
 
 app.use(express.json({ limit: "100mb" }));
 
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
-  // Add other CORS headers as needed
-  next();
-});
-
 app.use("/api", apiRouterStores);
 
 app.listen(port, () => console.log(`App listening at port ${port}`));
