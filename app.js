@@ -6,6 +6,8 @@ import bodyParser from "body-parser";
 
 dotenv.config();
 
+const mes = "Hey I am a new feature!";
+
 const app = express();
 const port = process.env.PORT || 3000;
 // parse application/x-www-form-urlencoded
