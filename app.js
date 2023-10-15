@@ -1,24 +1,10 @@
 import express from "express";
-import cors from "cors";
-import { MongoClient } from "mongodb";
 import axios from "axios";
 import dotenv from "dotenv";
 import apiRouterStores from "./routes/apiStores.js";
 import bodyParser from "body-parser";
 
 dotenv.config();
-
-async function connectToMongoDB() {
-  try {
-    // Connect to the MongoDB server
-    const client = new MongoClient(DB_URL, {});
-    await client.connect();
-    console.log("Connected to MongoDB");
-    return client;
-  } catch (error) {
-    console.error("Error connecting to MongoDB:", error);
-  }
-}
 
 const app = express();
 const port = process.env.PORT || 3000;
