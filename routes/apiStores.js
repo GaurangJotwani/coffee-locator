@@ -22,7 +22,10 @@ async function connectToMongoDB() {
   }
 }
 
-router.get("/stores/", async (req, res) => {
+
+
+router.get("/", async (req, res) => {
+
   let mongoclient;
   try {
     mongoclient = await connectToMongoDB();
@@ -59,44 +62,9 @@ router.get("/stores/", async (req, res) => {
       },
     };
     await collection.createIndex({ location: "2dsphere" });
-    const result = await collection.find(query).limit(50).toArray();
-    const currentDate = new Date();
-    const year = currentDate.getFullYear();
-    const month = currentDate.getMonth() + 1; // Note: Months are zero-based, so add 1 to get the correct month.
-    const day = currentDate.getDate();
-    const formattedDate = `${year}-${month < 10 ? "0" : ""}${month}-${
-      day < 10 ? "0" : ""
-    }${day}`;
-    const existingZipCount = await collection2.findOne({
-      zipcode: zipCode,
-      formattedDate: formattedDate,
-    });
-    if (existingZipCount) {
-      // If the zipcode exists, increment the count
-      await collection2.updateOne(
-        { zipcode: zipCode, formattedDate: formattedDate },
-        { $inc: { count: 1 } }
-      );
-      // Get the updated count value
-      const updatedCount = (
-        await collection2.findOne({
-          zipcode: zipCode,
-          formattedDate: formattedDate,
-        })
-      ).count;
-      // console.log(`${updatedCount}`);
-      res.status(200).json({ stores: result, updatedCount });
-    } else {
-      // If the zipcode doesn't exist, insert it with a count of 1
-      await collection2.insertOne({
-        zipcode: zipCode,
-        formattedDate: formattedDate,
-        count: 1,
-      });
+    const result = await collection.find(query).toArray();
+    res.status(200).send({stores:result});
 
-      const updatedCount = 1;
-      res.status(200).json({ stores: result, updatedCount });
-    }
   } catch (error) {
     console.error("Error inserting documents:", error);
     res.status(500).send(error);
@@ -105,7 +73,9 @@ router.get("/stores/", async (req, res) => {
   }
 });
 
-router.get("/stores/:id", async (req, res) => {
+
+
+router.get("/:id", async (req, res) => {
   let mongoclient;
   try {
     const storeId = req.params.id; // Get the store ID from the URL
@@ -132,7 +102,7 @@ router.get("/stores/:id", async (req, res) => {
   }
 });
 
-router.post("/stores/", async (req, res) => {
+router.post("/", async (req, res) => {
   let mongoclient;
   let dbStores = [];
   let stores = req.body;
@@ -163,7 +133,7 @@ router.post("/stores/", async (req, res) => {
   }
 });
 
-router.delete("/stores/", async (req, res) => {
+router.delete("/", async (req, res) => {
   let mongoclient;
   try {
     mongoclient = await connectToMongoDB();
@@ -179,7 +149,7 @@ router.delete("/stores/", async (req, res) => {
   }
 });
 
-router.put("/stores/:id", async (req, res) => {
+router.put("/:id", async (req, res) => {
   let mongoclient;
   try {
     const storeId = req.params.id; // Get the store ID from the URL

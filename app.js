@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import apiRouterStores from "./routes/apiStores.js";
+import apiRouterZip from "./routes/apiZipCount.js";
 import bodyParser from "body-parser";
 
 dotenv.config();
@@ -21,6 +22,7 @@ app.use(express.static("frontend"));
 
 app.use(express.json({ limit: "500mb" }));
 
-app.use("/api", apiRouterStores);
+app.use("/api/stores", apiRouterStores);
+app.use("/api/zipcount", apiRouterZip);
 
 app.listen(port, () => console.log(`App listening at port ${port}`));
