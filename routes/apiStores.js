@@ -1,5 +1,5 @@
 import express from "express";
-import { MongoClient } from "mongodb";
+import { MongoClient, ObjectId } from "mongodb";
 import axios from "axios";
 import dotenv from "dotenv";
 
@@ -105,6 +105,33 @@ router.get("/stores/", async (req, res) => {
   }
 });
 
+router.get("/stores/:id", async (req, res) => {
+  let mongoclient;
+  try {
+    const storeId = req.params.id; // Get the store ID from the URL
+
+    // Ensure the provided ID is a valid ObjectID
+    if (!ObjectId.isValid(storeId)) {
+      return res.status(400).json({ error: "Invalid store ID" });
+    }
+
+    mongoclient = await connectToMongoDB();
+    const db = mongoclient.db("storeLocator");
+    const collection = db.collection("stores");
+    const store = await collection.findOne({ _id: new ObjectId(storeId) });
+    if (store) {
+      res.status(200).json(store);
+    } else {
+      res.status(404).json({ error: "Store not found" });
+    }
+  } catch (error) {
+    console.error("Error inserting documents:", error);
+    res.status(500).send(error);
+  } finally {
+    await mongoclient.close();
+  }
+});
+
 router.post("/stores/", async (req, res) => {
   let mongoclient;
   let dbStores = [];
@@ -149,6 +176,35 @@ router.delete("/stores/", async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   } finally {
     await mongoclient.close();
+  }
+});
+
+router.put("/stores/:id", async (req, res) => {
+  let mongoclient;
+  try {
+    const storeId = req.params.id; // Get the store ID from the URL
+    const updatedStoreData = req.body;
+
+    // Ensure the provided ID is a valid ObjectID
+    if (!ObjectId.isValid(storeId)) {
+      return res.status(400).json({ error: "Invalid store ID" });
+    }
+    mongoclient = await connectToMongoDB();
+    const db = mongoclient.db("storeLocator");
+    const collection = db.collection("stores");
+    // Update the store in the database based on the provided ID
+    const result = await collection.findOneAndUpdate(
+      { _id: new ObjectId(storeId) },
+      { $set: updatedStoreData }
+    );
+    if (result) {
+      res.status(200).json(result.value);
+    } else {
+      res.status(404).json({ error: "Store not found" });
+    }
+  } catch (error) {
+    console.error("Error updating store:", error);
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
