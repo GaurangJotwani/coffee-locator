@@ -160,12 +160,6 @@ const clearLocations = () => {
   markers.length = 0;
 };
 
-const onEnter = (e) => {
-  if (e.key == "Enter") {
-    getStores();
-  }
-};
-
 const noStoresFound = () => {
   const html = `<div class="no-stores-found">No Stores Found</div>`;
   document.querySelector(".stores-list").innerHTML = html;
@@ -184,3 +178,12 @@ const isStringDigits = (inputString) => {
   }
   return true;
 };
+
+const inputElement = document.getElementById("zip-code");
+inputElement.addEventListener("keyup", function (event) {
+  // Check if a specific key is pressed (e.g., Enter key with keyCode 13)
+  if (event.key == "Enter") {
+    // Call your function here or perform any desired action
+    getStores();
+  }
+});
