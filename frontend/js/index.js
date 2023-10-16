@@ -1,14 +1,16 @@
 let map;
 let infoWindow;
 let markers = [];
-
+// eslint-disable-next-line
 function initMap() {
   let sanMateo = { lat: 37.563, lng: -122.3255 };
+  // eslint-disable-next-line
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 11,
     center: sanMateo,
     mayTypeId: "roadmap",
   });
+  // eslint-disable-next-line
   infoWindow = new google.maps.InfoWindow();
 }
 
@@ -73,12 +75,11 @@ const getZipCount = () => {
     })
     .then((data) => {
       const { updatedCount } = data;
-      console.log("data:" + updatedCount);
       const updatedCountParagraph = document.getElementById("updated-count");
       updatedCountParagraph.textContent =
         "This has been searched for " + updatedCount + " times! ";
     })
-    .catch((error) => {
+    .catch(() => {
       clearLocations();
       InvalidZipCode();
       return;
@@ -108,8 +109,10 @@ const setStoresList = (stores) => {
 };
 
 const searchLocationNear = (stores) => {
+  // eslint-disable-next-line
   let bounds = new google.maps.LatLngBounds();
   stores.forEach((store, index) => {
+    // eslint-disable-next-line
     var latlng = new google.maps.LatLng(
       store.location.coordinates[1],
       store.location.coordinates[0]
@@ -128,6 +131,7 @@ const setOnClickListener = () => {
   let storeElements = document.querySelectorAll(".store-container");
   storeElements.forEach((element, index) => {
     element.addEventListener("click", () => {
+      // eslint-disable-next-line
       google.maps.event.trigger(markers[index], "click");
     });
   });
@@ -167,12 +171,14 @@ const createMarker = (
       </div>
     </div>
   `;
+  // eslint-disable-next-line
   let marker = new google.maps.Marker({
     position: latlng,
     map: map,
     label: `${storeNumber}`,
   });
 
+  // eslint-disable-next-line
   google.maps.event.addListener(marker, "click", () => {
     infoWindow.setContent(html);
     infoWindow.open(map, marker);
@@ -218,7 +224,7 @@ inputElement.addEventListener("keyup", function (event) {
 });
 
 const searchButton = document.getElementById("search-button");
-searchButton.addEventListener("click", function (event) {
+searchButton.addEventListener("click", function () {
   getStores(); // Call the stores API
   getZipCount(); // Call the zip count API
 });

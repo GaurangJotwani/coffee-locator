@@ -22,16 +22,12 @@ async function connectToMongoDB() {
   }
 }
 
-
-
 router.get("/", async (req, res) => {
-
   let mongoclient;
   try {
     mongoclient = await connectToMongoDB();
     const db = mongoclient.db("storeLocator");
     const collection = db.collection("stores");
-    const collection2 = db.collection("zipCount");
     const zipCode = req.query.zip_code;
     const googleMapsUrl = "https://maps.googleapis.com/maps/api/geocode/json";
     const response = await axios.get(googleMapsUrl, {
@@ -40,7 +36,6 @@ router.get("/", async (req, res) => {
         key: process.env.GOOGLE_MAPS_API_KEY,
       },
     });
-
     const data = response.data;
     if (data.status == "ZERO_RESULTS") {
       return res.status(500).send("ZERO_RESULTS");
@@ -63,8 +58,7 @@ router.get("/", async (req, res) => {
     };
     await collection.createIndex({ location: "2dsphere" });
     const result = await collection.find(query).limit(20).toArray();
-    res.status(200).send({stores:result});
-
+    res.status(200).send({ stores: result });
   } catch (error) {
     console.error("Error inserting documents:", error);
     res.status(500).send(error);
@@ -72,8 +66,6 @@ router.get("/", async (req, res) => {
     await mongoclient.close();
   }
 });
-
-
 
 router.get("/:id", async (req, res) => {
   let mongoclient;
