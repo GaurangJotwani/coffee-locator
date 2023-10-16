@@ -62,7 +62,7 @@ router.get("/", async (req, res) => {
       },
     };
     await collection.createIndex({ location: "2dsphere" });
-    const result = await collection.find(query).toArray();
+    const result = await collection.find(query).limit(20).toArray();
     res.status(200).send({stores:result});
 
   } catch (error) {
