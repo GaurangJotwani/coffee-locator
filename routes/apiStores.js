@@ -46,7 +46,7 @@ router.get("/stores/", async (req, res) => {
       data.results[0].geometry.location.lng,
       data.results[0].geometry.location.lat,
     ];
-    const maxDistance = 5000;
+    const maxDistance = 30000;
     const query = {
       location: {
         $near: {
