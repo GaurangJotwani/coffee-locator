@@ -95,7 +95,7 @@ Before you begin, make sure you have the following software installed:
    ```
 
 Usage
-Enter a zip code in the search bar and press the search button.
+Enter a zip code in the search bar and press the search button. Use zip codes in Bay area only. Some zipcodes that can be used are [95014, 95070, 94536, 94501, 94016]
 
 The app will display a list of nearby coffee shops on the map.
 
