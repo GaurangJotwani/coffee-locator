@@ -10,7 +10,7 @@ const router = express.Router();
 
 // Replace <DB_URL> and <DB_NAME> with your actual MongoDB server URL and database name
 const DB_URL = process.env.MONGO_URL || "mongodb://127.0.0.1:27017";
-const DB_NAME = "starbucksLocator";
+const DB_NAME = "storeLocator";
 
 async function connectToMongoDB() {
   try {
@@ -24,12 +24,8 @@ async function connectToMongoDB() {
   }
 }
 
-router.get("/", async (req, res) => {
-  console.log("Hey there");
-  res.json("Hey there!");
-});
 
-router.get("/stores/", async (req, res) => {
+router.get("/", async (req, res) => {
   let mongoclient;
   let dbStores = [];
   try {
@@ -68,44 +64,7 @@ router.get("/stores/", async (req, res) => {
     };
     await collection.createIndex({ location: "2dsphere" });
     const result = await collection.find(query).toArray();
-    // res.status(200).send(result);
-    const currentDate = new Date();
-    const year = currentDate.getFullYear();
-    const month = currentDate.getMonth() + 1; // Note: Months are zero-based, so add 1 to get the correct month.
-    const day = currentDate.getDate();
-    const formattedDate = `${year}-${month < 10 ? "0" : ""}${month}-${
-      day < 10 ? "0" : ""
-    }${day}`;
-    const existingZipCount = await collection2.findOne({
-      zipcode: zipCode,
-      formattedDate: formattedDate,
-    });
-    if (existingZipCount) {
-      // If the zipcode exists, increment the count
-      await collection2.updateOne(
-        { zipcode: zipCode, formattedDate: formattedDate },
-        { $inc: { count: 1 } }
-      );
-      // Get the updated count value
-      const updatedCount = (
-        await collection2.findOne({
-          zipcode: zipCode,
-          formattedDate: formattedDate,
-        })
-      ).count;
-      // console.log(`${updatedCount}`);
-      res.status(200).json({ stores: result, updatedCount });
-    } else {
-      // If the zipcode doesn't exist, insert it with a count of 1
-      await collection2.insertOne({
-        zipcode: zipCode,
-        formattedDate: formattedDate,
-        count: 1,
-      });
-
-      const updatedCount = 1;
-      res.status(200).json({ stores: result, updatedCount });
-    }
+    res.status(200).send({stores:result});
   } catch (error) {
     console.error("Error inserting documents:", error);
     res.status(500).send(error);
@@ -114,7 +73,7 @@ router.get("/stores/", async (req, res) => {
   }
 });
 
-router.post("/stores/", async (req, res) => {
+router.post("/", async (req, res) => {
   let mongoclient;
   let dbStores = [];
   let stores = req.body;
@@ -145,7 +104,7 @@ router.post("/stores/", async (req, res) => {
   }
 });
 
-router.delete("/stores/", async (req, res) => {
+router.delete("/", async (req, res) => {
   let mongoclient;
   let dbStores = req.body;
   try {

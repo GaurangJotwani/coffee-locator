@@ -13,13 +13,14 @@ function initMap() {
 }
 
 const getStores = () => {
+  
   const zipCode = document.getElementById("zip-code").value;
   // if (!zipCode || zipCode.length != 5 || !isStringDigits(zipCode)) {
   //   clearLocations();
   //   InvalidZipCode();
   //   return;
   // }
-  const API_URL = "https://coffeelocator.onrender.com/api/stores?";
+  const API_URL = "http://localhost:3000/api/stores?";
   fetch(
     API_URL +
       new URLSearchParams({
@@ -34,17 +35,13 @@ const getStores = () => {
       }
     })
     .then((data) => {
-      const { updatedCount, stores } = data;
+      const { stores } = data;
 
       if (stores.length > 0) {
         clearLocations();
         searchLocationNear(stores);
         setStoresList(stores);
         setOnClickListener();
-
-        const updatedCountParagraph = document.getElementById("updated-count");
-        updatedCountParagraph.textContent =
-          "This has been searched for " + updatedCount + " times today! ";
       } else {
         clearLocations();
         noStoresFound();
@@ -56,6 +53,39 @@ const getStores = () => {
       return;
     });
 };
+
+const getZipCount = () => {
+  
+  const zipCode = document.getElementById("zip-code").value;
+  const API_URL2 = "http://localhost:3000/api/zipcount?"; // the new API route
+  fetch(
+    API_URL2 +
+      new URLSearchParams({
+        zip_code: zipCode,
+      })
+  )
+    .then((response) => {
+      if (response.status === 200) {
+        return response.json();
+      } else {
+        throw new Error("Zip count not found");
+      }
+    })
+    .then((data) => {          
+      const {updatedCount} = data;
+      console.log("data:"+updatedCount);
+      const updatedCountParagraph = document.getElementById("updated-count");
+      updatedCountParagraph.textContent =
+        "This has been searched for " + updatedCount + " times! ";
+    })
+    .catch((error) => {
+      clearLocations();
+      InvalidZipCode();
+      return;
+    });
+};
+
+
 
 const setStoresList = (stores) => {
   let storesHtml = ``;
@@ -162,7 +192,8 @@ const clearLocations = () => {
 
 const onEnter = (e) => {
   if (e.key == "Enter") {
-    getStores();
+    getStores(); // Call the stores API 
+    getZipCount(); // Call the zip count API
   }
 };
 
