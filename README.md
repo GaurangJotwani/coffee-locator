@@ -7,7 +7,14 @@ Welcome to the Coffee Shop Locator App for the Bay Area. This web application he
 This Coffee Shop Locator App was created by the following individuals:
 
 - Gaurang Jotwani (https://www.gaurang-portfolio.com)
-- Jishva Shah
+- Jishva Shah (https://jishvashah.github.io/Personal-Homepage/)
+
+## Importat Note:
+1. You can check the following github link for grading purposes since both authors have performed their respective tasks in this repo: https://github.com/GaurangJotwani/StoreLocator/tree/main
+2. Due to different folders in the old repo, we couldn't deploy it properly. Hence this new repo is made after refactoring/restructuring the code into different folders a bit by Gaurang and he committed the changes after refactoring so it is now deployed on render properly.
+3. Task performed by Gaurang: The app will display a list of nearby coffee shops on the map, using collection stores.
+4. Task performed by Jishva: The app will also keep track of the query with the zip code and the date of the search in the MongoDB database, using collection zipCount.
+
 
 ## Screenshots:
 
