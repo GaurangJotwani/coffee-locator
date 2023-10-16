@@ -15,12 +15,14 @@ function initMap() {
 const getStores = () => {
   
   const zipCode = document.getElementById("zip-code").value;
-  // if (!zipCode || zipCode.length != 5 || !isStringDigits(zipCode)) {
-  //   clearLocations();
-  //   InvalidZipCode();
-  //   return;
-  // }
-  const API_URL = "http://localhost:3000/api/stores?";
+
+  if (!zipCode || zipCode.length != 5 || !isStringDigits(zipCode)) {
+    clearLocations();
+    InvalidZipCode();
+    return;
+  }
+  const API_URL = "https://coffeelocator.onrender.com/api/stores?";
+
   fetch(
     API_URL +
       new URLSearchParams({
@@ -47,7 +49,7 @@ const getStores = () => {
         noStoresFound();
       }
     })
-    .catch((error) => {
+    .catch(() => {
       clearLocations();
       InvalidZipCode();
       return;
@@ -57,7 +59,7 @@ const getStores = () => {
 const getZipCount = () => {
   
   const zipCode = document.getElementById("zip-code").value;
-  const API_URL2 = "http://localhost:3000/api/zipcount?"; // the new API route
+  const API_URL2 = "https://coffeelocator.onrender.com/api/zipcount?"; // the new API route
   fetch(
     API_URL2 +
       new URLSearchParams({
@@ -190,13 +192,6 @@ const clearLocations = () => {
   markers.length = 0;
 };
 
-const onEnter = (e) => {
-  if (e.key == "Enter") {
-    getStores(); // Call the stores API 
-    getZipCount(); // Call the zip count API
-  }
-};
-
 const noStoresFound = () => {
   const html = `<div class="no-stores-found">No Stores Found</div>`;
   document.querySelector(".stores-list").innerHTML = html;
@@ -215,3 +210,13 @@ const isStringDigits = (inputString) => {
   }
   return true;
 };
+
+const inputElement = document.getElementById("zip-code");
+inputElement.addEventListener("keyup", function (event) {
+  // Check if a specific key is pressed (e.g., Enter key with keyCode 13)
+  if (event.key == "Enter") {
+    // Call your function here or perform any desired action
+    getStores(); // Call the stores API 
+    getZipCount(); // Call the zip count API
+  }
+});

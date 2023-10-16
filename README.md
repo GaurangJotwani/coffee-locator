@@ -3,17 +3,35 @@
 Welcome to the Coffee Shop Locator App for the Bay Area. This web application helps users find the nearest coffee shops based on their zip code. It also provides information about how many times a zip code has been queried on a given date. The app uses Google Maps API for location services, HTML/CSS/JavaScript for the frontend, and MongoDB as the backend data store. The server-side is built using Express.js.
 
 ## Authors
+
 This Coffee Shop Locator App was created by the following individuals:
-- Gaurang Jotwani
-- Jishva Shah
+
+- Gaurang Jotwani (https://www.gaurang-portfolio.com)
+- Jishva Shah (https://jishvashah.github.io/Personal-Homepage/)
+
+## Importat Note:
+1. You can check the following github link for grading purposes since both authors have performed their respective tasks in this repo: https://github.com/GaurangJotwani/StoreLocator/tree/main
+2. Due to different folders in the old repo, we couldn't deploy it properly. Hence this new repo is made after refactoring/restructuring the code into different folders a bit by Gaurang and he committed the changes after refactoring so it is now deployed on render properly.
+3. Task performed by Gaurang: The app will display a list of nearby coffee shops on the map, using collection stores.
+4. Task performed by Jishva: The app will also keep track of the query with the zip code and the date of the search in the MongoDB database, using collection zipCount.
+
 
 ## Screenshots:
+
 ![image](https://github.com/GaurangJotwani/StoreLocator/assets/77269630/7d96000c-f766-4ece-b6a8-9e8b45f88d7c)
+
 ## Thumbnail link:
+
 https://drive.google.com/file/d/1CbeecVrXwPvuNPcgCcBRUdWdWYI8R6u6/view?usp=sharing
+
 ## Slides link:
+
 https://docs.google.com/presentation/d/12msIifGvIZOlOEdY9bwK7pyhyO8Fb8Cil5fdKV9fphc/edit?usp=sharing
+
 ## Deployed Website Link:
+
+https://coffeelocator.onrender.com/
+
 ## Public Video Demnstration Link:
 
 ## Table of Contents
@@ -54,25 +72,37 @@ Before you begin, make sure you have the following software installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/coffee-shop-locator.git
-
+   git clone https://github.com/GaurangJotwani/coffee-locator.git
    ```
 
 2. Navigate to the project directory:
+
+   ```bash
    cd coffee-shop-locator
+   ```
 
 3. Install the required npm packages:
+
+   ```bash
    npm install
+   ```
 
-4. Create a .env file in the project root directory to store your environment variables. Include your Google Maps API key and MongoDB connection details:
+4. Start database server locally on another terminal:
+
+   ```bash
+   mongod --dbpath ~/data/db
+   ```
+
+5. Create a .env file in the project root directory to store your environment variables. Include your Google Maps API key details (Make a google api key from GCP console and enable google maps API, geolocation API and geocoding API on the credential):
    GOOGLE_MAPS_API_KEY=your_api_key
-   MONGODB_URI=your_mongodb_uri
 
-5. Start the server:
-   npm start
+6. Start the server:
+   ```bash
+   node app.js
+   ```
 
 Usage
-Enter a zip code in the search bar and press the search button.
+Enter a zip code in the search bar and press the search button. Use zip codes in Bay area only. Some zipcodes that can be used are [95014, 95070, 94536, 94501, 94016]
 
 The app will display a list of nearby coffee shops on the map.
 

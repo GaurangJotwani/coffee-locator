@@ -1,6 +1,5 @@
 import express from "express";
-import { MongoClient } from "mongodb";
-import { ObjectId } from "mongodb";
+import { MongoClient, ObjectId } from "mongodb";
 import axios from "axios";
 import dotenv from "dotenv";
 
@@ -10,7 +9,6 @@ const router = express.Router();
 
 // Replace <DB_URL> and <DB_NAME> with your actual MongoDB server URL and database name
 const DB_URL = process.env.MONGO_URL || "mongodb://127.0.0.1:27017";
-const DB_NAME = "storeLocator";
 
 async function connectToMongoDB() {
   try {
@@ -25,9 +23,10 @@ async function connectToMongoDB() {
 }
 
 
+
 router.get("/", async (req, res) => {
+
   let mongoclient;
-  let dbStores = [];
   try {
     mongoclient = await connectToMongoDB();
     const db = mongoclient.db("storeLocator");
@@ -50,7 +49,7 @@ router.get("/", async (req, res) => {
       data.results[0].geometry.location.lng,
       data.results[0].geometry.location.lat,
     ];
-    const maxDistance = 5000;
+    const maxDistance = 30000;
     const query = {
       location: {
         $near: {
@@ -65,6 +64,36 @@ router.get("/", async (req, res) => {
     await collection.createIndex({ location: "2dsphere" });
     const result = await collection.find(query).toArray();
     res.status(200).send({stores:result});
+
+  } catch (error) {
+    console.error("Error inserting documents:", error);
+    res.status(500).send(error);
+  } finally {
+    await mongoclient.close();
+  }
+});
+
+
+
+router.get("/:id", async (req, res) => {
+  let mongoclient;
+  try {
+    const storeId = req.params.id; // Get the store ID from the URL
+
+    // Ensure the provided ID is a valid ObjectID
+    if (!ObjectId.isValid(storeId)) {
+      return res.status(400).json({ error: "Invalid store ID" });
+    }
+
+    mongoclient = await connectToMongoDB();
+    const db = mongoclient.db("storeLocator");
+    const collection = db.collection("stores");
+    const store = await collection.findOne({ _id: new ObjectId(storeId) });
+    if (store) {
+      res.status(200).json(store);
+    } else {
+      res.status(404).json({ error: "Store not found" });
+    }
   } catch (error) {
     console.error("Error inserting documents:", error);
     res.status(500).send(error);
@@ -94,7 +123,7 @@ router.post("/", async (req, res) => {
     mongoclient = await connectToMongoDB();
     const db = mongoclient.db("storeLocator");
     const collection = db.collection("stores");
-    const result = await collection.insertMany(dbStores);
+    await collection.insertMany(dbStores);
     res.status(200).send(dbStores);
   } catch (error) {
     console.error("Error inserting documents:", error);
@@ -106,7 +135,6 @@ router.post("/", async (req, res) => {
 
 router.delete("/", async (req, res) => {
   let mongoclient;
-  let dbStores = req.body;
   try {
     mongoclient = await connectToMongoDB();
     const db = mongoclient.db("storeLocator");
@@ -118,6 +146,35 @@ router.delete("/", async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   } finally {
     await mongoclient.close();
+  }
+});
+
+router.put("/:id", async (req, res) => {
+  let mongoclient;
+  try {
+    const storeId = req.params.id; // Get the store ID from the URL
+    const updatedStoreData = req.body;
+
+    // Ensure the provided ID is a valid ObjectID
+    if (!ObjectId.isValid(storeId)) {
+      return res.status(400).json({ error: "Invalid store ID" });
+    }
+    mongoclient = await connectToMongoDB();
+    const db = mongoclient.db("storeLocator");
+    const collection = db.collection("stores");
+    // Update the store in the database based on the provided ID
+    const result = await collection.findOneAndUpdate(
+      { _id: new ObjectId(storeId) },
+      { $set: updatedStoreData }
+    );
+    if (result) {
+      res.status(200).json(result.value);
+    } else {
+      res.status(404).json({ error: "Store not found" });
+    }
+  } catch (error) {
+    console.error("Error updating store:", error);
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 

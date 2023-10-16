@@ -1,5 +1,4 @@
 import express from "express";
-import axios from "axios";
 import dotenv from "dotenv";
 import apiRouterStores from "./routes/apiStores.js";
 import apiRouterZip from "./routes/apiZipCount.js";
@@ -21,7 +20,7 @@ app.use((req, res, next) => {
 app.use(bodyParser.json());
 app.use(express.static("frontend"));
 
-app.use(express.json({ limit: "100mb" }));
+app.use(express.json({ limit: "500mb" }));
 
 app.use("/api/stores", apiRouterStores);
 app.use("/api/zipcount", apiRouterZip);

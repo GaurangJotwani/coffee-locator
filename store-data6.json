@@ -1,0 +1,6431 @@
+[
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "74928-101859",
+    "id": "8154",
+    "name": "Safeway Pacifica 304",
+    "phoneNumber": "6503596707",
+    "coordinates": {
+      "latitude": 37.59452,
+      "longitude": -122.50306
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1380 Linda Mar SC",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Pacifica",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94044"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "1380 Linda Mar SC",
+      "Pacifica, CA 94044"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-pacifica-304-1380-linda-mar-sc-pacifica-ca-94044-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5632-285771",
+    "id": "1023252",
+    "name": "Linda Mar",
+    "phoneNumber": "4157100573",
+    "coordinates": {
+      "latitude": 37.59542,
+      "longitude": -122.50377
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "500 Linda Mar Blvd",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Pacifica",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940443333"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon"
+    ],
+    "addressLines": [
+      "500 Linda Mar Blvd",
+      "Pacifica, CA 94044"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 4-7 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "linda-mar-500-linda-mar-blvd-pacifica-ca-940443333-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "6631-70920",
+    "id": "15559",
+    "name": "Hwy 1 & Belleville - Half Moon",
+    "phoneNumber": "6507265753",
+    "coordinates": {
+      "latitude": 37.47009,
+      "longitude": -122.43495
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "80 Cabrillo Highway N",
+      "streetAddressLine2": "Strawflower Village Shopping Center",
+      "streetAddressLine3": "V",
+      "city": "Half Moon Bay",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940191667"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Open until 8:00 PM",
+    "warnings": [],
+    "addressLines": [
+      "80 Cabrillo Highway N",
+      "Strawflower Village Shopping Center",
+      "Half Moon Bay, CA 94019"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 5-8 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "hwy-1-belleville-half-moon-80-cabrillo-highway-n-v-half-moon-bay-ca-940191667"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "557-499",
+    "id": "15797",
+    "name": "Millbrae Square",
+    "phoneNumber": "6506929567",
+    "coordinates": {
+      "latitude": 37.60295,
+      "longitude": -122.39461
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "513 Broadway",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Millbrae",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940301907"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon"
+    ],
+    "addressLines": [
+      "513 Broadway",
+      "Millbrae, CA 94030"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 4-7 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "millbrae-square-513-broadway-millbrae-ca-940301907-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "19055-178424",
+    "id": "1005288",
+    "name": "Safeway Millbrae 2878",
+    "phoneNumber": "6506523416",
+    "coordinates": {
+      "latitude": 37.60345,
+      "longitude": -122.39444
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "525 El Camino Real",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Millbrae",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94030"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "525 El Camino Real",
+      "Millbrae, CA 94030"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-millbrae-2878-525-el-camino-real-millbrae-ca-94030-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5729-8385",
+    "id": "11650",
+    "name": "Bayhill & Cherry",
+    "phoneNumber": "6506159471",
+    "coordinates": {
+      "latitude": 37.62575,
+      "longitude": -122.426
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "851 Cherry Avenue",
+      "streetAddressLine2": "Bayhill Shopping Center",
+      "streetAddressLine3": "39",
+      "city": "San Bruno",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940662954"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Open until 8:00 PM",
+    "warnings": [],
+    "addressLines": [
+      "851 Cherry Avenue",
+      "Bayhill Shopping Center",
+      "San Bruno, CA 94066"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 3-6 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "bayhill-cherry-851-cherry-avenue-39-san-bruno-ca-940662954-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "8910-85341",
+    "id": "15012",
+    "name": "Murchison & El Camino",
+    "phoneNumber": "6506523929",
+    "coordinates": {
+      "latitude": 37.59517,
+      "longitude": -122.38611
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1865 El Camino Real",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Burlingame",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940103220"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "1865 El Camino Real",
+      "Burlingame, CA 94010"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "murchison-el-camino-1865-el-camino-real-burlingame-ca-940103220-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "9551-97227",
+    "id": "9460",
+    "name": "501 San Mateo Avenue",
+    "phoneNumber": "6509524295",
+    "coordinates": {
+      "latitude": 37.62473,
+      "longitude": -122.41137
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "501 San Mateo Avenue",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Bruno",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940664324"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon"
+    ],
+    "addressLines": [
+      "501 San Mateo Avenue",
+      "San Bruno, CA 94066"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 3-6 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "501-san-mateo-avenue-501-san-mateo-avenue-san-bruno-ca-940664324-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "24132-233525",
+    "id": "1009751",
+    "name": "Oceana & Manor",
+    "phoneNumber": "4154702321",
+    "coordinates": {
+      "latitude": 37.64847,
+      "longitude": -122.49053
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "549 Oceana",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Pacifica",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940441902"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "549 Oceana",
+      "Pacifica, CA 94044"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "oceana-manor-549-oceana-pacifica-ca-940441902-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "48505-263367",
+    "id": "1016835",
+    "name": "SFO PRE-SECURITY Intl. Arrival",
+    "phoneNumber": "6506837129",
+    "coordinates": {
+      "latitude": 37.61521,
+      "longitude": -122.38905
+    },
+    "regulations": [
+      {
+        "code": "requireBeveragePlasticsOptIn"
+      }
+    ],
+    "address": {
+      "streetAddressLine1": "SAN FRANCISCO INTL AIRPORT",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94128"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Open until 8:30 PM",
+    "warnings": [],
+    "addressLines": [
+      "SAN FRANCISCO INTL AIRPORT",
+      "San Francisco, CA 94128"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 3-6 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "7:15 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "7:15 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "7:15 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "7:15 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "7:15 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "7:15 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "7:15 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "sfo-pre-security-intl-arrival-san-francisco-intl-airport-san-francisco-ca-94128-"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "79784-139564",
+    "id": "18626",
+    "name": "Safeway Pacifica 3008",
+    "phoneNumber": "6503592751",
+    "coordinates": {
+      "latitude": 37.65015,
+      "longitude": -122.49186
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "12 Manor Plaza",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Pacifica",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940441800"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "12 Manor Plaza",
+      "Pacifica, CA 94044"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-pacifica-3008-12-manor-plaza-pacifica-ca-940441800-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "6871-85343",
+    "id": "14081",
+    "name": "Broadway & Laguna - Burlingame",
+    "phoneNumber": "6503440747",
+    "coordinates": {
+      "latitude": 37.58585,
+      "longitude": -122.36508
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1230 Broadway",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Burlingame",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940103424"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "1230 Broadway",
+      "Burlingame, CA 94010"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:30 AM to 3:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:30 AM to 3:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:30 AM to 3:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "broadway-laguna-burlingame-1230-broadway-burlingame-ca-940103424-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "79650-115165",
+    "id": "1013532",
+    "name": "Safeway South San Francisco 31",
+    "phoneNumber": "6505889005",
+    "coordinates": {
+      "latitude": 37.64672,
+      "longitude": -122.45188
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "2255 Gellert Blvd",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "South San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94080"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "2255 Gellert Blvd",
+      "South San Francisco, CA 94080"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-south-san-francisco-31-2255-gellert-blvd-south-san-francisco-ca-94080-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "82141-308287",
+    "id": "1053329",
+    "name": "The Westin San Francisco Airpo",
+    "phoneNumber": "6508728124",
+    "coordinates": {
+      "latitude": 37.60345,
+      "longitude": -122.37607
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1 Old Bayshore Hwy",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Millbrae",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94030"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "1 Old Bayshore Hwy",
+      "Millbrae, CA 94030"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      }
+    ],
+    "slug": "the-westin-san-francisco-airpo-1-old-bayshore-hwy-millbrae-ca-94030-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "76579-99356",
+    "id": "7109",
+    "name": "Target San Bruno 1054",
+    "phoneNumber": "6508270171",
+    "coordinates": {
+      "latitude": 37.63654,
+      "longitude": -122.41688
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1150 El Camino Real",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Bruno",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940662420"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Open until 8:00 PM",
+    "warnings": [
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "1150 El Camino Real",
+      "San Bruno, CA 94066"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "target-san-bruno-1054-1150-el-camino-real-san-bruno-ca-940662420-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5889-27928",
+    "id": "11080",
+    "name": "El Camino & Sneath",
+    "phoneNumber": "6508720348",
+    "coordinates": {
+      "latitude": 37.63872,
+      "longitude": -122.42096
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1212 El Camino Real",
+      "streetAddressLine2": "San Bruno Towne Center",
+      "streetAddressLine3": "Suite G",
+      "city": "San Bruno",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940661312"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": null,
+    "openStatusText": "",
+    "warnings": null,
+    "addressLines": [
+      "1212 El Camino Real",
+      "San Bruno Towne Center",
+      "San Bruno, CA 94066"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "Closed",
+        "open": false,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "8:30 AM to 4:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "8:30 AM to 4:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "8:30 AM to 4:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "8:30 AM to 4:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "8:30 AM to 4:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "8:30 AM to 4:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "el-camino-sneath-1212-el-camino-real-suite-g-san-bruno-ca-940661312"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "70325-120031",
+    "id": "10905",
+    "name": "SFO Terminal 3 Baggage Claim",
+    "phoneNumber": "6506837129",
+    "coordinates": {
+      "latitude": 37.61811,
+      "longitude": -122.38691
+    },
+    "regulations": [
+      {
+        "code": "requireBeveragePlasticsOptIn"
+      }
+    ],
+    "address": {
+      "streetAddressLine1": "SFO, Terminal 3 United Gate73",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94128"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Open until 10:30 PM",
+    "warnings": [],
+    "addressLines": [
+      "SFO, Terminal 3 United Gate73",
+      "San Francisco, CA 94128"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 3-6 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "4:30 AM to 10:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 10:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 10:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 10:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 10:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 10:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "4:30 AM to 10:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "WF",
+        "name": "Wireless Hot-Spot"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "sfo-terminal-3-baggage-claim-sfo-terminal-3-united-gate-73-san-francisco-ca-941"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "78028-85286",
+    "id": "6972",
+    "name": "San Francisco Airport Marriott",
+    "phoneNumber": "6506929100",
+    "coordinates": {
+      "latitude": 37.60217,
+      "longitude": -122.37054
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1800 Old Bayshore Hwy",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Burlingame",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940101294"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "1800 Old Bayshore Hwy",
+      "Burlingame, CA 94010"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "4:30 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "4:30 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WF",
+        "name": "Wireless Hot-Spot"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "san-francisco-airport-marriott-1800-old-bayshore-hwy-burlingame-ca-940101294-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "16157-157484",
+    "id": "68424",
+    "name": "Safeway Burlingame 1547",
+    "phoneNumber": "6503433488",
+    "coordinates": {
+      "latitude": 37.57645,
+      "longitude": -122.34808
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1450  Howard Ave",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Burlingame",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940104202"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Open until 7:30 PM",
+    "warnings": [
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "1450  Howard Ave",
+      "Burlingame, CA 94010"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-burlingame-1547-1450-howard-ave-burlingame-ca-940104202-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5971-48239",
+    "id": "16512",
+    "name": "Hickey & Skyline - Pacifica",
+    "phoneNumber": "6503597147",
+    "coordinates": {
+      "latitude": 37.66054,
+      "longitude": -122.47745
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "791 Hickey Boulevard",
+      "streetAddressLine2": "Fairmont Center",
+      "streetAddressLine3": null,
+      "city": "Pacifica",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940441214"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "791 Hickey Boulevard",
+      "Fairmont Center",
+      "Pacifica, CA 94044"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "hickey-skyline-pacifica-791-hickey-boulevard-pacifica-ca-940441214-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "523-467",
+    "id": "18430",
+    "name": "Burlingame Ave.",
+    "phoneNumber": "6503485138",
+    "coordinates": {
+      "latitude": 37.57939,
+      "longitude": -122.34612
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1160 Burlingame Avenue",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Burlingame",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940104106"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 14 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "1160 Burlingame Avenue",
+      "Burlingame, CA 94010"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "burlingame-ave-1160-burlingame-avenue-burlingame-ca-940104106-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5844-23907",
+    "id": "15454",
+    "name": "DeAnza & Polhemus",
+    "phoneNumber": "6503450483",
+    "coordinates": {
+      "latitude": 37.521,
+      "longitude": -122.33737
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "111 DeAnza Blvd",
+      "streetAddressLine2": "Crystal Springs Shopping Center",
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944023988"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "111 DeAnza Blvd",
+      "Crystal Springs Shopping Center",
+      "San Mateo, CA 94402"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "de-anza-polhemus-111-de-anza-blvd-san-mateo-ca-944023988-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5374-1239",
+    "id": "15989",
+    "name": "Gellert & Serramonte - Daly Ci",
+    "phoneNumber": "6507564116",
+    "coordinates": {
+      "latitude": 37.66768,
+      "longitude": -122.4684
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "321 Gellert Blvd",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Daly City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940152613"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon"
+    ],
+    "addressLines": [
+      "321 Gellert Blvd",
+      "Daly City, CA 94015"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 5-8 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "gellert-serramonte-daly-ci-321-gellert-blvd-daly-city-ca-940152613-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "10225-98587",
+    "id": "18142",
+    "name": "El Camino & McLellan",
+    "phoneNumber": "6509520740",
+    "coordinates": {
+      "latitude": 37.66453,
+      "longitude": -122.44549
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "100 McLellan Dr",
+      "streetAddressLine2": "Transit Village",
+      "streetAddressLine3": "1075",
+      "city": "South San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940807558"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 14 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "100 McLellan Dr",
+      "Transit Village",
+      "South San Francisco, CA 94080"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "el-camino-mc-lellan-100-mc-lellan-dr-1075-south-san-francisco-ca-94080"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "9687-72943",
+    "id": "9418",
+    "name": "Grand & Linden",
+    "phoneNumber": "6505891939",
+    "coordinates": {
+      "latitude": 37.65527,
+      "longitude": -122.41094
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "329 Grand Avenue",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "South San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940803606"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon"
+    ],
+    "addressLines": [
+      "329 Grand Avenue",
+      "South San Francisco, CA 94080"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 3-6 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "grand-linden-329-grand-avenue-south-san-francisco-ca-940803606-"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "27567-237381",
+    "id": "1012181",
+    "name": "Target Daly City Serramonte 14",
+    "phoneNumber": "6507552393",
+    "coordinates": {
+      "latitude": 37.67038,
+      "longitude": -122.47089
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "133 Serramonte Center",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Daly City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940152349"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Open until 8:00 PM",
+    "warnings": [
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "133 Serramonte Center",
+      "Daly City, CA 94015"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "target-daly-city-serramonte-14-133-serramonte-center-daly-city-ca-940152349-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5312-907",
+    "id": "15993",
+    "name": "176 Gateway Blvd.",
+    "phoneNumber": "6508663904",
+    "coordinates": {
+      "latitude": 37.65219,
+      "longitude": -122.402
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "176 Gateway Blvd.",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "South San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940807046"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "176 Gateway Blvd.",
+      "South San Francisco, CA 94080"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "176-gateway-blvd-176-gateway-blvd-south-san-francisco-ca-940807046-"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5602-1925",
+    "id": "16578",
+    "name": "Peninsula & Delaware - San Mat",
+    "phoneNumber": "6506858864",
+    "coordinates": {
+      "latitude": 37.57978,
+      "longitude": -122.33336
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "842 North Delaware Street",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944011504"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "842 North Delaware Street",
+      "San Mateo, CA 94401"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "peninsula-delaware-san-mat-842-north-delaware-street-san-mateo-ca-944011504-u"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "14424-72951",
+    "id": "20057",
+    "name": "Junipero Serra & Serramonte Co",
+    "phoneNumber": "6507571086",
+    "coordinates": {
+      "latitude": 37.67132,
+      "longitude": -122.46421
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "990 Serramonte Blvd.",
+      "streetAddressLine2": null,
+      "streetAddressLine3": "A",
+      "city": "Colma",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940143260"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Open until 9:00 PM",
+    "warnings": [],
+    "addressLines": [
+      "990 Serramonte Blvd.",
+      "Colma, CA 94014"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 3-6 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "4:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "4:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DT",
+        "name": "Drive-Thru"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "junipero-serra-serramonte-co-990-serramonte-blvd-a-colma-ca-940143260-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "4147-153384",
+    "id": "18807",
+    "name": "Target Colma 320",
+    "phoneNumber": "6509928433",
+    "coordinates": {
+      "latitude": 37.67328,
+      "longitude": -122.46443
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "5001 Junipero Serra Blvd",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Colma",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940143217"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Open until 8:00 PM",
+    "warnings": [
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "5001 Junipero Serra Blvd",
+      "Colma, CA 94014"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "target-colma-320-5001-junipero-serra-blvd-colma-ca-940143217-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5986-298779",
+    "id": "1032149",
+    "name": "Serramonte Center - DT",
+    "phoneNumber": "6509974556",
+    "coordinates": {
+      "latitude": 37.67476,
+      "longitude": -122.47015
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "10 Serramonte Center",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Daly City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940152345"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Open until 8:00 PM",
+    "warnings": [],
+    "addressLines": [
+      "10 Serramonte Center",
+      "Daly City, CA 94015"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 6-9 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DT",
+        "name": "Drive-Thru"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "serramonte-center-dt-10-serramonte-center-daly-city-ca-940152345-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "613-327",
+    "id": "11715",
+    "name": "4th St San Mateo",
+    "phoneNumber": "6505481764",
+    "coordinates": {
+      "latitude": 37.56289,
+      "longitude": -122.324
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "54 East Fourth Avenue",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944014002"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "54 East Fourth Avenue",
+      "San Mateo, CA 94401"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "4th-st-san-mateo-54-east-fourth-avenue-san-mateo-ca-944014002-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "58715-290637",
+    "id": "1026815",
+    "name": "Oyster Point & Gateway",
+    "phoneNumber": "6508726677",
+    "coordinates": {
+      "latitude": 37.6626,
+      "longitude": -122.39639
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "101 Oyster Point Blvd.",
+      "streetAddressLine2": null,
+      "streetAddressLine3": "108",
+      "city": "South San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940802035"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "101 Oyster Point Blvd.",
+      "South San Francisco, CA 94080"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 4:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "oyster-point-gateway-101-oyster-point-blvd-108-south-san-francisco-ca-9"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5692-4510",
+    "id": "12326",
+    "name": "17th & El Camino - San Mateo",
+    "phoneNumber": "6503578176",
+    "coordinates": {
+      "latitude": 37.55219,
+      "longitude": -122.31384
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1701 South El Camino Real",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944023025"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "1701 South El Camino Real",
+      "San Mateo, CA 94402"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "17th-el-camino-san-mateo-1701-south-el-camino-real-san-mateo-ca-944023025-u"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "57464-290565",
+    "id": "1022764",
+    "name": "Safeway San Mateo 970",
+    "phoneNumber": "6503410374",
+    "coordinates": {
+      "latitude": 37.55333,
+      "longitude": -122.31389
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1655 El Camino Real",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94402"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "1655 El Camino Real",
+      "San Mateo, CA 94402"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-san-mateo-970-1655-el-camino-real-san-mateo-ca-94402-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5336-210664",
+    "id": "1010149",
+    "name": "Hillsdale Mall",
+    "phoneNumber": "6503457907",
+    "coordinates": {
+      "latitude": 37.53781,
+      "longitude": -122.30018
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "157 Hillsdale Shopping Cente",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944033408"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Open until 7:30 PM",
+    "warnings": [],
+    "addressLines": [
+      "157 Hillsdale Shopping Cente",
+      "San Mateo, CA 94403"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 4-7 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "7:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "hillsdale-mall-157-hillsdale-shopping-cente-san-mateo-ca-94403340"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5533-1639",
+    "id": "9161",
+    "name": "Mission St & Gambetta",
+    "phoneNumber": "6507575274",
+    "coordinates": {
+      "latitude": 37.69735,
+      "longitude": -122.46296
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "6873 Mission Street",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Daly City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940142034"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon"
+    ],
+    "addressLines": [
+      "6873 Mission Street",
+      "Daly City, CA 94014"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 4-7 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "mission-st-gambetta-6873-mission-street-daly-city-ca-940142034-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "74958-102357",
+    "id": "65861",
+    "name": "Safeway Daly City 3031",
+    "phoneNumber": "6507550576",
+    "coordinates": {
+      "latitude": 37.69938,
+      "longitude": -122.48141
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "601 Westlake Center",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Daly City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940151434"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "601 Westlake Center",
+      "Daly City, CA 94015"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-daly-city-3031-601-westlake-center-daly-city-ca-940151434-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "6718-75341",
+    "id": "16646",
+    "name": "Saratoga & Park Place, San Mat",
+    "phoneNumber": "6503577440",
+    "coordinates": {
+      "latitude": 37.54459,
+      "longitude": -122.29278
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1391 Saratoga Drive",
+      "streetAddressLine2": "Jefferson at Bay Meadows",
+      "streetAddressLine3": "Building 6, Store F",
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944031571"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "1391 Saratoga Drive",
+      "Jefferson at Bay Meadows",
+      "San Mateo, CA 94403"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 5:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "saratoga-park-place-san-mat-1391-saratoga-drive-building-6-store-f-san-mateo-c"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5408-100759",
+    "id": "8626",
+    "name": "John Daly & Westlake Center",
+    "phoneNumber": "6509942948",
+    "coordinates": {
+      "latitude": 37.70076,
+      "longitude": -122.48321
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "332 Westlake Center",
+      "streetAddressLine2": "Westlake Shopping Center",
+      "streetAddressLine3": "332",
+      "city": "Daly City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940151431"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Open until 11:30 PM",
+    "warnings": [],
+    "addressLines": [
+      "332 Westlake Center",
+      "Westlake Shopping Center",
+      "Daly City, CA 94015"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 3-6 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "4:30 AM to 11:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 9:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 11:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 11:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 11:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 11:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "4:30 AM to 11:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "john-daly-westlake-center-332-westlake-center-332-daly-city-ca-940151431-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "72238-25687",
+    "id": "8936",
+    "name": "Mollie Stone's San Mateo",
+    "phoneNumber": "6503722828",
+    "coordinates": {
+      "latitude": 37.52925,
+      "longitude": -122.29001
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "47 W. 42nd Ave.",
+      "streetAddressLine2": "Mollie Stone Market - San Mateo",
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944035166"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "47 W. 42nd Ave.",
+      "Mollie Stone Market - San Mateo",
+      "San Mateo, CA 94403"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "7:00 AM to 4:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WF",
+        "name": "Wireless Hot-Spot"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "mollie-stones-san-mateo-47-w-42nd-ave-san-mateo-ca-944035166-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "538-482",
+    "id": "11723",
+    "name": "Carlmont Center Belmont",
+    "phoneNumber": "6505949663",
+    "coordinates": {
+      "latitude": 37.5111,
+      "longitude": -122.29309
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1071 Alameda De Las Pulgas",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Belmont",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940023507"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 14 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "1071 Alameda De Las Pulgas",
+      "Belmont, CA 94002"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "carlmont-center-belmont-1071-alameda-de-las-pulgas-belmont-ca-940023507-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "76623-99359",
+    "id": "8629",
+    "name": "Target San Mateo 1122",
+    "phoneNumber": "6503410734",
+    "coordinates": {
+      "latitude": 37.55908,
+      "longitude": -122.28368
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "2220 Bridgepointe Pkwy",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944041569"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Open until 8:00 PM",
+    "warnings": [
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "2220 Bridgepointe Pkwy",
+      "San Mateo, CA 94404"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "7:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "target-san-mateo-1122-2220-bridgepointe-pkwy-san-mateo-ca-944041569-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5596-1924",
+    "id": "13365",
+    "name": "Bridgepoint & Hwy 92",
+    "phoneNumber": "6503571533",
+    "coordinates": {
+      "latitude": 37.56092,
+      "longitude": -122.28033
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "2292 Bridgepoint Parkway",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944041569"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "2292 Bridgepoint Parkway",
+      "San Mateo, CA 94404"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:30 AM to 5:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:30 AM to 8:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "bridgepoint-hwy-92-2292-bridgepoint-parkway-san-mateo-ca-944041569-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "74167-120244",
+    "id": "7618",
+    "name": "Safeway San Mateo 999",
+    "phoneNumber": null,
+    "coordinates": {
+      "latitude": 37.55589,
+      "longitude": -122.27548
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "921 E. Hillsdale Blvd.",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Mateo",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944042112"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "921 E. Hillsdale Blvd.",
+      "San Mateo, CA 94404"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "WF",
+        "name": "Wireless Hot-Spot"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-san-mateo-999-921-e-hillsdale-blvd-san-mateo-ca-944042112-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5225-391",
+    "id": "9132",
+    "name": "Metro Center Foster City",
+    "phoneNumber": "6503415752",
+    "coordinates": {
+      "latitude": 37.56093,
+      "longitude": -122.2739
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1000 Metro Center Blvd.",
+      "streetAddressLine2": null,
+      "streetAddressLine3": "Suite E",
+      "city": "Foster City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944042178"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Open until 7:30 PM",
+    "warnings": [],
+    "addressLines": [
+      "1000 Metro Center Blvd.",
+      "Foster City, CA 94404"
+    ],
+    "mop": {
+      "ready": true,
+      "wait": "Prep time: 4-7 min"
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "metro-center-foster-city-1000-metro-center-blvd-suite-e-foster-city-ca-9440"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5570-1024",
+    "id": "15946",
+    "name": "Ralston & El Camino Belmont",
+    "phoneNumber": "6506545533",
+    "coordinates": {
+      "latitude": 37.51988,
+      "longitude": -122.27559
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1050-A El Camino Real",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Belmont",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940023956"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 14 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "1050-A El Camino Real",
+      "Belmont, CA 94002"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "4:30 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "ralston-el-camino-belmont-1050-a-el-camino-real-belmont-ca-940023956-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "74149-24410",
+    "id": "11936",
+    "name": "Safeway Belmont 1138",
+    "phoneNumber": "6505961730",
+    "coordinates": {
+      "latitude": 37.51864,
+      "longitude": -122.27576
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "1100 El Camino Real",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "Belmont",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "940023904"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": true,
+    "openStatusText": "Closes in 44 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "1100 El Camino Real",
+      "Belmont, CA 94002"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 7:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "WF",
+        "name": "Wireless Hot-Spot"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "safeway-belmont-1138-1100-el-camino-real-belmont-ca-940023904-us"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "5934-268584",
+    "id": "1018118",
+    "name": "Foster City  & Civic Center",
+    "phoneNumber": "6503414419",
+    "coordinates": {
+      "latitude": 37.5592,
+      "longitude": -122.2673
+    },
+    "regulations": [],
+    "address": {
+      "streetAddressLine1": "780 Alma Lane",
+      "streetAddressLine2": null,
+      "streetAddressLine3": "Suite #155",
+      "city": "Foster City",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "944042790"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "CO",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": true,
+    "open": true,
+    "openStatusText": "Closes in 14 mins",
+    "warnings": [
+      "Store closing soon",
+      "Mobile order unavailable"
+    ],
+    "addressLines": [
+      "780 Alma Lane",
+      "Foster City, CA 94404"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "6:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "6:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "6:30 AM to 6:30 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "GO",
+        "name": "Starbucks Wi-Fi"
+      },
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "SE",
+        "name": "Mobile Multi Tender"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "LU",
+        "name": "Lunch"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "UC",
+        "name": "UCP"
+      },
+      {
+        "code": "UE",
+        "name": "Uber Eats"
+      },
+      {
+        "code": "DD",
+        "name": "DoorDash"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      },
+      {
+        "code": "DL",
+        "name": "Delivery"
+      },
+      {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+      }
+    ],
+    "slug": "foster-city-civic-center-780-alma-lane-suite-155-foster-city-ca-944042790-u"
+  },
+  {
+    "recommendation": {
+      "isUsual": false
+    },
+    "storeNumber": "52031-280209",
+    "id": "1019235",
+    "name": "Target San Fran. Stonestown 32",
+    "phoneNumber": "4156802914",
+    "coordinates": {
+      "latitude": 37.72651,
+      "longitude": -122.47689
+    },
+    "regulations": [
+      {
+        "code": "requireBeveragePlasticsOptIn"
+      }
+    ],
+    "address": {
+      "streetAddressLine1": "233 Winston Dr",
+      "streetAddressLine2": null,
+      "streetAddressLine3": null,
+      "city": "San Francisco",
+      "countrySubdivisionCode": "CA",
+      "countryCode": "US",
+      "postalCode": "94132"
+    },
+    "timeZoneInfo": {
+      "currentTimeOffset": -420,
+      "windowsTimeZoneId": "Pacific Standard Time",
+      "olsonTimeZoneId": "GMT-08:00 America/Los_Angeles"
+    },
+    "brandName": "Starbucks",
+    "ownershipTypeCode": "LS",
+    "curbside": {
+      "state": "notSupported"
+    },
+    "acceptsNonSvcMop": false,
+    "open": false,
+    "openStatusText": "Closed",
+    "warnings": [
+      "Store closed"
+    ],
+    "addressLines": [
+      "233 Winston Dr",
+      "San Francisco, CA 94132"
+    ],
+    "mop": {
+      "ready": false,
+      "wait": null
+    },
+    "schedule": [
+      {
+        "dayName": "Today",
+        "hours": "9:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tomorrow",
+        "hours": "9:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Tuesday",
+        "hours": "9:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Wednesday",
+        "hours": "9:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Thursday",
+        "hours": "9:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Friday",
+        "hours": "9:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      },
+      {
+        "dayName": "Saturday",
+        "hours": "9:00 AM to 6:00 PM",
+        "open": true,
+        "holiday": ""
+      }
+    ],
+    "features": [
+      {
+        "code": "DR",
+        "name": "Redeem Rewards"
+      },
+      {
+        "code": "BE",
+        "name": "Blonde Espresso"
+      },
+      {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "code": "WA",
+        "name": "Oven-warmed Food"
+      },
+      {
+        "code": "16",
+        "name": "In store"
+      }
+    ],
+    "slug": "target-san-fran-stonestown-32-233-winston-dr-san-francisco-ca-94132-us"
+  }
+]
