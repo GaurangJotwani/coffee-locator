@@ -66,23 +66,33 @@ Before you begin, make sure you have the following software installed:
 
    ```bash
    git clone https://github.com/GaurangJotwani/coffee-locator.git
-
    ```
 
 2. Navigate to the project directory:
+
+   ```bash
    cd coffee-shop-locator
+   ```
 
 3. Install the required npm packages:
-   npm install
 
-4. Start database server locally:
+   ```bash
+   npm install
+   ```
+
+4. Start database server locally on another terminal:
+
+   ```bash
    mongod --dbpath ~/data/db
+   ```
 
 5. Create a .env file in the project root directory to store your environment variables. Include your Google Maps API key details (Make a google api key from GCP console and enable google maps API, geolocation API and geocoding API on the credential):
    GOOGLE_MAPS_API_KEY=your_api_key
 
 6. Start the server:
-   npm start
+   ```bash
+   node app.js
+   ```
 
 Usage
 Enter a zip code in the search bar and press the search button.
