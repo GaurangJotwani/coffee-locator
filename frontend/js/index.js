@@ -13,7 +13,6 @@ function initMap() {
 }
 
 const getStores = () => {
-  
   const zipCode = document.getElementById("zip-code").value;
 
   if (!zipCode || zipCode.length != 5 || !isStringDigits(zipCode)) {
@@ -57,7 +56,6 @@ const getStores = () => {
 };
 
 const getZipCount = () => {
-  
   const zipCode = document.getElementById("zip-code").value;
   const API_URL2 = "https://coffeelocator.onrender.com/api/zipcount?"; // the new API route
   fetch(
@@ -73,9 +71,9 @@ const getZipCount = () => {
         throw new Error("Zip count not found");
       }
     })
-    .then((data) => {          
-      const {updatedCount} = data;
-      console.log("data:"+updatedCount);
+    .then((data) => {
+      const { updatedCount } = data;
+      console.log("data:" + updatedCount);
       const updatedCountParagraph = document.getElementById("updated-count");
       updatedCountParagraph.textContent =
         "This has been searched for " + updatedCount + " times! ";
@@ -86,8 +84,6 @@ const getZipCount = () => {
       return;
     });
 };
-
-
 
 const setStoresList = (stores) => {
   let storesHtml = ``;
@@ -216,7 +212,13 @@ inputElement.addEventListener("keyup", function (event) {
   // Check if a specific key is pressed (e.g., Enter key with keyCode 13)
   if (event.key == "Enter") {
     // Call your function here or perform any desired action
-    getStores(); // Call the stores API 
+    getStores(); // Call the stores API
     getZipCount(); // Call the zip count API
   }
+});
+
+const searchButton = document.getElementById("search-button");
+searchButton.addEventListener("click", function (event) {
+  getStores(); // Call the stores API
+  getZipCount(); // Call the zip count API
 });
