@@ -1,6 +1,5 @@
 import express from "express";
 import { MongoClient } from "mongodb";
-import { ObjectId } from "mongodb";
 import axios from "axios";
 import dotenv from "dotenv";
 
@@ -10,7 +9,6 @@ const router = express.Router();
 
 // Replace <DB_URL> and <DB_NAME> with your actual MongoDB server URL and database name
 const DB_URL = process.env.MONGO_URL || "mongodb://127.0.0.1:27017";
-const DB_NAME = "starbucksLocator";
 
 async function connectToMongoDB() {
   try {
@@ -24,14 +22,8 @@ async function connectToMongoDB() {
   }
 }
 
-router.get("/", async (req, res) => {
-  console.log("Hey there");
-  res.json("Hey there!");
-});
-
 router.get("/stores/", async (req, res) => {
   let mongoclient;
-  let dbStores = [];
   try {
     mongoclient = await connectToMongoDB();
     const db = mongoclient.db("storeLocator");
@@ -135,7 +127,7 @@ router.post("/stores/", async (req, res) => {
     mongoclient = await connectToMongoDB();
     const db = mongoclient.db("storeLocator");
     const collection = db.collection("stores");
-    const result = await collection.insertMany(dbStores);
+    await collection.insertMany(dbStores);
     res.status(200).send(dbStores);
   } catch (error) {
     console.error("Error inserting documents:", error);
@@ -147,7 +139,6 @@ router.post("/stores/", async (req, res) => {
 
 router.delete("/stores/", async (req, res) => {
   let mongoclient;
-  let dbStores = req.body;
   try {
     mongoclient = await connectToMongoDB();
     const db = mongoclient.db("storeLocator");

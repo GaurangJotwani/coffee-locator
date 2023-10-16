@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Gaurang jotwani, Jishva Shah",
+  "scripts": {},
+  "author": "Gaurang Jotwani & Jishva Shah",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.51.0",

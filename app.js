@@ -1,5 +1,4 @@
 import express from "express";
-import axios from "axios";
 import dotenv from "dotenv";
 import apiRouterStores from "./routes/apiStores.js";
 import bodyParser from "body-parser";

@@ -21,8 +21,8 @@
       }
     ],
     "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "double"],
     "semi": ["error", "always"],
+    "no-template-curly-in-string": "off",
     "no-console": 0
   }
 }
