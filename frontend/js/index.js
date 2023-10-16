@@ -50,7 +50,7 @@ const getStores = () => {
         noStoresFound();
       }
     })
-    .catch((error) => {
+    .catch(() => {
       clearLocations();
       InvalidZipCode();
       return;
