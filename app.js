@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 app.use(bodyParser.json());
 app.use(express.static("frontend"));
 
-app.use(express.json({ limit: "200mb" }));
+app.use(express.json({ limit: "500mb" }));
 
 app.use("/api", apiRouterStores);
 

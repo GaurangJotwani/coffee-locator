@@ -59,8 +59,7 @@ router.get("/stores/", async (req, res) => {
       },
     };
     await collection.createIndex({ location: "2dsphere" });
-    const result = await collection.find(query).toArray();
-    // res.status(200).send(result);
+    const result = await collection.find(query).limit(50).toArray();
     const currentDate = new Date();
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth() + 1; // Note: Months are zero-based, so add 1 to get the correct month.
