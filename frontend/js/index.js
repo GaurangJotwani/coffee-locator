@@ -22,6 +22,8 @@ const getStores = () => {
     InvalidZipCode();
     return;
   }
+  // I noticed there is two API urls (API_URL and API_URL2), maybe adding a more descriptive name can help in 
+  // differentiating then. For example, STORES_API_URL and ZIP_COUNT_API_URL.
   const API_URL = "https://coffeelocator.onrender.com/api/stores?";
 
   fetch(
@@ -85,7 +87,14 @@ const getZipCount = () => {
       return;
     });
 };
+// For the two functions above, I like how you've employed promise chaining with .then() and .catch() in the getStores() function. 
+// It's interesting to see another way of implementing asynchronous operations like the async/await syntax. 
+// It gives a clear sequence to the process, making it straightforward and easy to understand. For example, I am able to understand
+// that the getStores() function retrieves the ZIP code, fetches related store data via an API, processes and displays the results/messages, 
+// and handles any errors if no zip is found. Great job on that!
 
+// I like how you created a separate function that handles the displaying of data. 
+// This approach helps keep the code clean and allows for reuse in multiple parts of the code.
 const setStoresList = (stores) => {
   let storesHtml = ``;
   stores.forEach((store, index) => {
